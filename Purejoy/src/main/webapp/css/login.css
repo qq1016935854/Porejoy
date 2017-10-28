@@ -1,0 +1,261 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.loginpage {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 480px;
+	height: 450px;
+	margin-left: -240px;
+	margin-top: -225px;
+}
+
+.loginpage .header {
+	padding: 5px 0 20px;
+}
+
+.loginpage .header .logo {
+	text-align: center;
+}
+
+.loginpage .login-wrap {
+	width: 300px;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.loginpage .login-wrap .loginin {
+	position: absolute;
+	top: 0;
+}
+
+.loginpage .login-wrap .loginin .login input {
+	background: rgba(255, 255, 255, 0.5);
+	outline: none;
+	border: 1px solid #999;
+	padding: 12px;
+	font-size: 16px;
+	width: 300px;
+	box-sizing: border-box;
+	color: #454545;
+	padding-left: 40px;
+}
+
+.loginpage .login-wrap .loginin .login ul .user11 {
+	position: absolute;
+	top: 13px;
+	left: 13px;
+	font-size: 16px;
+	color: #999;
+}
+
+.loginpage .login-wrap .loginin .login ul .user22 {
+	position: absolute;
+	top: 69px;
+	left: 9px;
+	font-size: 23px;
+	color: #999;
+}
+
+.loginpage .login-wrap .loginin .login ul li {
+	list-style: none;
+	margin-bottom: 16px;
+	position: relative;
+}
+
+.loginpage .login-wrap .loginin .login ul li .submit {
+	background-color: #60aa5b;
+	padding: 12px;
+	border: none;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
+
+.loginpage .login-wrap .loginin .login ul li .forget {
+	float: left;
+	font-size: 16px;
+	padding: 3px;
+	margin-top: 5px;
+	color: #454545;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.loginpage .login-wrap .loginin .login ul li .slideregistor {
+	font-size: 16px;
+	float: right;
+	padding: 3px;
+	margin-top: 5px;
+	color: #454545;
+	cursor: pointer;
+}
+
+.loginpage .login-wrap .registorin {
+	left: 300px;
+	position: absolute;
+	top: 0;
+}
+
+.loginpage .login-wrap .registorin .registor input {
+	background: rgba(255, 255, 255, 0.5);
+	outline: none;
+	border: 1px solid #999;
+	padding: 12px;
+	font-size: 16px;
+	width: 300px;
+	box-sizing: border-box;
+	color: #454545;
+}
+
+.loginpage .login-wrap .registorin .registor ul .user11 {
+	position: absolute;
+	top: 13px;
+	left: 13px;
+	font-size: 16px;
+	color: #999;
+}
+
+.loginpage .login-wrap .registorin .registor ul .user22 {
+	position: absolute;
+	top: 69px;
+	left: 9px;
+	font-size: 23px;
+	color: #999;
+}
+
+.loginpage .login-wrap .registorin .registor ul .user33 {
+	position: absolute;
+	top: 129px;
+	left: 9px;
+	font-size: 23px;
+	color: #999;
+}
+
+.loginpage .login-wrap .registorin .registor ul li {
+	list-style: none;
+	margin-bottom: 16px;
+	position: relative;
+}
+
+.loginpage .login-wrap .registorin .registor ul li input {
+	padding-left: 40px;
+}
+
+.loginpage .login-wrap .registorin .registor ul li .submit1 {
+	background-color: #454545;
+	padding: 12px;
+	border: none;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 3px;
+	cursor: pointer;
+	padding-left: -40px;
+	text-align: center;
+}
+
+.loginpage .login-wrap .registorin .registor ul li .slidelogin {
+	font-size: 16px;
+	float: right;
+	padding: 3px;
+	margin-top: 5px;
+	color: #454545;
+	cursor: pointer;
+}
+
+.loginpage .login-wrap .registorin .registor ul li .legend {
+	border-top: 1px solid #454545;
+	text-align: center;
+	position: relative;
+	top: 46px;
+}
+
+.loginpage .login-wrap .registorin .registor ul li .legend span {
+	font-size: 16px;
+	top: -9px;
+	position: relative;
+	line-height: 16px;
+	background-color: #fafff5;
+	padding: 0 10px;
+	color: #454545;
+	font-weight: normal;
+	margin-left: 48px;
+}
+
+.loginpage .login-wrap .registorin .registor ul li .third-party a .user44
+	{
+	position: absolute;
+	top: 70px;
+	left: 119px;
+	font-size: 40px;
+	color: #64a131;
+}
+
+.check {
+	width: 320px;
+	height: 130px;
+	position: fixed;
+	left: 50%;
+	top: 40%;
+	margin-left: -160px;
+	margin-top: -65px;
+	background: white;
+	z-index: 101;
+	display: none;
+}
+
+.check h1 {
+	background-color: black;
+	height: 34px;
+	color: white;
+}
+
+.check h1 .delete {
+	float: right;
+	font-size: 16px;
+	line-height: 34px;
+	height: 34px;
+	text-align: center;
+	width: 40px;
+	cursor: pointer;
+}
+
+.check p {
+	font-size: 14px;
+	text-align: center;
+	line-height: 60px;
+}
+
+.check .confirmbtn {
+	cursor: pointer;
+	font-size: 16px;
+	text-align: center;
+	width: 90px;
+	height: 28px;
+	line-height: 28px;
+	letter-spacing: 2px;
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	margin-left: -45px;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+}
+
+.allcolor {
+	height: 100%;
+	width: 100%;
+	background: rgba(100, 100, 100, 0.5);
+	position: fixed;
+	z-index: 100;
+	left: 0;
+	top: 0;
+	display: none;
+}

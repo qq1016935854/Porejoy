@@ -1,0 +1,946 @@
+*{margin:0;padding:0;}
+li{list-style: none;float: left;}
+a,input{text-decoration: none;outline: none;}
+.ripper_cart{
+	width: 1000px;
+	margin:0 auto;
+	box-sizing: border-box;
+	padding-top: 100px;
+	margin:0 132px 60px 132px;
+	/*border:1px solid red;*/
+	overflow: hidden;
+	/*margin-left: 175px;*/
+
+}
+.ripper_cart .ripper_cart_left{
+	width: 517px;
+	float: left;
+}
+.ripper_cart .ripper_cart_left h1{
+	padding-bottom: 12px;
+
+}
+.ripper_cart .ripper_cart_left .ripper_cart_left_title{
+	font-family: "Helvetica", "arial", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	color: #b3ce3e;
+    letter-spacing: 4px;
+    font-size: 36px;
+    margin-right: 20px;
+}
+.ripper_cart .ripper_cart_left .ripper_cart_left_bigpic img{
+	float: left;
+	margin-bottom: 32px;
+}
+.ripper_cart .ripper_cart_left .ripper_cart_left_bigpic .ripper_cart_left_bigpic_2{
+	display: none;
+}
+.ripper_cart .ripper_cart_left .ripper_cart_left_thumbnail{
+	float: left;
+}
+.ripper_cart .ripper_cart_left .ripper_cart_left_thumbnail li{
+	width: 110px;
+	height: 80px;
+	padding:3px;
+	margin:0 15px 15px 0;
+	border: 1px solid #d0d0d0;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}
+ .ripper_cart .ripper_cart_left .ripper_cart_left_thumbnail .ripper_cart_left_thumbnail_1{
+	border:2px solid #fdb523;
+	padding:2px;
+}
+/* .ripper_cart .ripper_cart_left .ripper_cart_left_thumbnail .ripper_cart_left_thumbnail_2{
+	border: 1px solid #d0d0d0;
+	padding:3px;
+}  */
+.ripper_cart .ripper_cart_left .ripper_cart_left_thumbnail li a{
+	display: block;
+	width: 110px;
+	height: 80px;
+}
+.ripper_cart .ripper_cart_left .ripper_cart_left_thumbnail li a img{
+	width: 100%;
+	height: 100%;
+}
+.ripper_cart .ripper_cart_right{
+	width: 467px;
+	float: right;
+	background: #f4f4f4;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_title{
+	height: 26px;
+	padding: 36px 0 14px 0;
+
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_title .ripper_cart_right_title_name{
+	height: 26px;
+	padding:0 15px;
+	line-height: 26px;
+	float: left;
+    color: #9e9e9f;
+    
+    width: 34px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_title .ripper_cart_right_title_content{
+	float: left;
+    font-size: 26px;
+    color: #b3ce3e;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_title .ripper_cart_right_title_content .ripper_cart_left_thumbnail_2{
+	display: none;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_txt{
+	height: 130px;
+	padding-bottom: 25px;
+
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_txt .blank{
+	width: 34px;
+	padding:0 15px 1px 15px;
+	float: left;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_txt .ripper_cart_right_txt_right{
+	float: left;
+	color: #9e9e9f;
+    line-height: 26px;
+    font-size: 16px;
+    width: 380px;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_txt .ripper_cart_right_txt_right .ripper_cart_right_txt_right_2{
+	display: none;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_txt .ripper_cart_right_txt_right span{
+	color: black;
+	display: block;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_price{
+	height: 30px;
+	padding-bottom: 36px;
+	overflow: hidden;
+
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_price .ripper_cart_right_title{
+	padding:8px 15px 0 15px;
+	float: left;
+    color: #9e9e9f;
+    
+    width: 34px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_price .ripper_cart_right_num{
+	float: left;
+    font-size: 28px;
+    line-height: 28px;
+    color: #b3ce3e;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_price .ripper_cart_right_symbol{
+	float: left;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 16px;
+    padding-top: 2px;
+    color: #aaa;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_price .ripper_cart_right_txt{
+	float: left;
+    margin-left: 16px;
+    font-size: 20px;
+    line-height: 28px;
+    height: 28px;
+    padding-top: 2px;
+    color: #aaa;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_price .ripper_cart_right_txt .ripper_cart_right_txt_2{
+	display: none;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_classify .ripper_cart_right_classify_txt{
+	float: left;
+    color: #9e9e9f;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 34px;
+    letter-spacing: 1px;
+    font-size: 16px;
+   padding-top: 34px;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_classify{
+	/*overflow: hidden;*/
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_classify .ripper_cart_right_classify_pic{
+	float: left;
+    width: 400px;
+    padding-bottom: 27px;
+    position: relative;
+
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_classify .ripper_cart_right_classify_pic .ripper_cart_right_classify_pic_1{
+	 border: 2px solid #fdb523;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_classify .ripper_cart_right_classify_pic .ripper_cart_right_classify_pic_1 span{
+	 
+	height: 20px;
+	display: block;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 10px;
+    background-color: #b3ce3e;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    left: 25%;
+    bottom: 95px;
+    opacity: 0;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_classify .ripper_cart_right_classify_pic .ripper_cart_right_classify_pic_2 span{
+	height: 20px;
+	display: block;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 10px;
+    background-color: #b3ce3e;
+    position: absolute;
+    z-index: 2;
+
+    color: white;
+    left: 25%;
+    bottom: 95px;
+    opacity: 0;
+
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_classify .ripper_cart_right_classify_pic i{
+	display: block;
+	width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-top: 7px solid #b3ce3e;
+    border-right: 5px solid transparent;
+    position: absolute;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_classify .ripper_cart_right_classify_pic li{
+	float: left;
+    margin: 0 10px 10px 0;
+    box-sizing: border-box;
+    width: 84px;
+    height: 84px;
+    position: relative;
+    display: block;
+    border: 1px solid #d0d0d0;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_classify .ripper_cart_right_classify_pic li img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_weight{
+	padding-bottom: 30px;
+	
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_weight .ripper_cart_right_weight_blank{
+	padding-top: 2px;
+	float: left;
+    color: #9e9e9f;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 34px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_weight .ripper_cart_right_weight_content{
+	color: #fdb523;
+    padding: 3px 9px;
+    border: 2px solid #fdb523;
+    display: inline-block;
+    font-size: 12px;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_number .ripper_cart_right_number{
+	height: 32px;
+	padding-bottom: 30px;
+	margin-bottom: 23px;
+	overflow: hidden;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_number .ripper_cart_right_number_title{
+	padding:0 15px;
+	line-height: 32px;
+	float: left;
+    color: #9e9e9f;
+    
+    width: 34px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_number .ripper_cart_right_number_frame{
+	float: left;
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*pointer-events: none;*/
+	cursor: pointer;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_number .ripper_cart_right_number_frame .minus{
+	border-radius: 4px 0 0 4px;
+	display: block;
+	width: 28px;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    background-color: #fdb523;
+    color: white;
+    text-align: center;
+    outline: none;
+    /*font-weight: 700;*/
+    font-size: 25px;
+    text-decoration: none;
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_number .ripper_cart_right_number_frame .plus{
+	border-radius: 0 4px 4px 0;
+	display: block;
+	width: 28px;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    background-color: #fdb523;
+    color: white;
+    text-align: center;
+    outline: none;
+    /*background-color: none;*/
+    /*font-weight: 700;*/
+    font-size: 25px;
+    text-decoration: none;
+    /*pointer-events: none;*/
+
+
+}
+.ripper_cart .ripper_cart_right .ripper_cart_right_number .ripper_cart_right_number_frame .input_box{
+	box-sizing: border-box;
+    border: 1px solid #fdb523;
+    width: 48px;
+    height: 32px;
+    color: #787878;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    outline:none;
+    text-decoration: none;
+}
+.ripper_cart .ripper_cart_right_button{
+	padding-top: 23px;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	background: white;
+	height: 46px;
+    /*border-radius: 4px;*/
+
+}
+.ripper_cart .ripper_cart_right_button .shop_cart{
+	 
+	padding:11px 48px;
+	display: inline-block;
+    width: 272px;
+    height: 44px;
+    box-sizing: border-box;
+    background: #fdb523;
+    font-size: 22px;
+    line-height: 22px;
+    color: white;
+    float: left;
+    outline: none;
+    text-decoration: none; 
+    box-shadow: #eb9e02 0 2px;
+
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 1;
+}
+.ripper_cart .ripper_cart_right_button .settle_accounts{
+	background: #d7d7d7;
+	box-shadow: #bebebe 0 2px;
+	float: right;
+    width: 180px;
+    height: 44px;
+    box-sizing: border-box;
+    padding: 11px 32px;
+    color: white;
+    line-height: 22px;
+    font-size: 22px;
+    border-radius: 4px;
+    cursor: no-drop;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.ripper_photo{
+	width: 1000px;
+	margin:auto;
+	padding-bottom: 200px;
+	background: white;
+}
+.ripper_photo .ripper_photo_title{
+	height: 62px;
+	border-top: 1px solid #c3c3c3;
+	width: 100%;
+	
+}
+.ripper_photo .ripper_photo_title a{
+	width: 200px;
+	height: 62px;
+	line-height: 62px;
+	display: block;
+	font-size: 22px;
+    color: #d7d7d7;
+
+}
+.ripper_photo .ripper_photo_banner{
+	width: 100%;
+}
+.ripper_photo .ripper_photo_banner img{
+	width: 100%;
+
+}
+.ripper_side{
+	/*width: 132px;*/
+	position: fixed;
+	right: 0;
+	top:280px;
+	/*position: relative;*/
+}
+.ripper_side a{
+	width: 38px;
+	height: 38px;
+	display: block;
+	cursor: pointer;
+	/*float: right;*/
+
+}
+.ripper_side .ripper_side_icon{
+	float: right;
+	cursor: pointer;
+
+}
+.ripper_side .ripper_side_icon a:nth-of-type(1){
+	font-size: 16px;
+	color: white;
+	line-height: 38px;
+	background: #6ba652;
+	text-align: center;
+	font-size: 20px;
+
+}
+.ripper_side .ripper_side_icon a:nth-of-type(2){
+	font-size: 16px;
+	color: white;
+	line-height: 38px;
+	background: #b3ce3e;;
+	text-align: center;
+	font-size: 20px;
+	margin-top:5px;
+	/*pointer-events: none;*/
+
+}
+.ripper_side .ripper_side_icon a:nth-of-type(3){
+	font-size: 16px;
+	color: white;
+	line-height: 38px;
+	background: #6ba652;;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 260px;
+	/*pointer-events: none;*/
+
+	/*display: none;*/
+}
+.ripper_side span{
+	width: 68px;
+	height: 38px;
+
+}
+.ripper_side .ripper_side_txt_1{
+	width: 68px;
+	height: 38px;
+	z-index: 1;
+	background: #def0d6;
+	/*float: right;*/
+	margin-right: 20px;
+	text-align: center;
+	line-height: 38px;
+	color:#6ba652;
+	font-size: 12px;
+	position: absolute;
+	left: -94px;
+	opacity: 0;
+}
+  
+.ripper_side .ripper_side_txt_1 i{
+	display: block;
+	width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 7px solid #def0d6;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    top:15px;
+    right: -7px;
+    
+}
+.ripper_side .ripper_side_txt_2{
+	width: 68px;
+	height: 38px;
+	z-index: 1;
+	background: #def0d6;
+	/*float: right;*/
+	margin-right: 20px;
+	text-align: center;
+	line-height: 38px;
+	color:#6ba652;
+	font-size: 12px;
+	position: absolute;
+	left: -94px;
+	opacity: 0;
+	
+	cursor: pointer;
+	margin-top: 341px;
+}
+.ripper_side .ripper_side_txt_2 i{
+	display: block;
+	width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 7px solid #def0d6;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    top:15px;
+    right: -7px;
+    
+}
+.ripper_hang{
+	width: 1000px;
+	height: 62px;
+	/*margin:0 auto;*/
+
+	background: white;
+	/*display: flex;*/
+	justify-content: space-between;
+	position: fixed;
+	top:0;
+	left: 132px;
+	display:none;
+}
+.ripper_hang .ripper_hang_left{
+	width: 200px;
+	line-height: 62px;
+	text-align: left;
+	font-size: 22px;
+	color: #b7b7b7;
+	float: left;
+	cursor: pointer;
+
+	/*background: red;*/
+}
+.ripper_hang .ripper_hang_right{
+	width: 177px;
+	height: 22px;
+	padding:20px 28px;
+	background:  #b3ce3e;
+	display: flex;
+	justify-content: space-between;
+	float: right;
+	cursor: pointer;
+
+}
+.ripper_hang .ripper_hang_right i{
+	color: white;
+	font-size: 22px;
+	line-height: 22px;
+}
+.ripper_hang .ripper_hang_right span{
+	letter-spacing: 4px;
+	font-size: 22px ;
+	line-height: 22px;
+	color: white;
+}
+.ripper_side .enter_cart{
+	width: 254px;
+	/*height: 248px;*/
+	position: absolute;
+	right: 80px;
+	background: #def0d6;
+	top:43px;
+	z-index: 3;
+	opacity: 0;
+}
+.ripper_side .enter_cart .enter_cart_triangle{
+	display: block;
+	width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 7px solid #def0d6;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    top:14px;
+    right: -4px;
+}
+.ripper_side .enter_cart .enter_cart_goods{
+	width: 251px;
+	border-bottom: 1px solid #bcc4b9;
+	padding-bottom: 5px;
+	color: #6ba652;
+
+}
+.ripper_side .enter_cart .enter_cart_goods .enter_cart_goods_item{
+	width:254px;
+	height: 67px;
+
+}
+.ripper_side .enter_cart .enter_cart_goods .enter_cart_goods_item div{
+	width: 45px;
+	height: 45px;
+	border:1px solid #6ba652;
+	margin:10px 0 0 14px;
+	float: left;
+}
+.ripper_side .enter_cart .enter_cart_goods .enter_cart_goods_item div img{
+	width: 100%;
+	height: 100%;
+}
+.ripper_side .enter_cart .enter_cart_goods .enter_cart_goods_text{
+	width: 130px;
+	margin-left: 6px;
+	/*height: 40px;*/
+	color: #6ba652;
+	float: left;
+	overflow: hidden;
+}
+.ripper_side .enter_cart .enter_cart_goods .enter_cart_goods_text span:nth-of-type(1){
+	font-size: 16px;
+	line-height: 20px;
+	width: 130px;
+	display: block;
+	margin-top: 10px;
+
+}
+.ripper_side .enter_cart .enter_cart_goods .enter_cart_goods_text span:nth-of-type(2){
+	font-size: 12px;
+	 
+}
+.ripper_side .enter_cart .enter_cart_goods .enter_cart_goods_item .enter_cart_goods_num{
+	width:43px;
+	height: 67px;
+	text-align: center;
+	line-height: 67px;
+	float: left;
+	font-size: 12px;
+
+}
+.ripper_side .enter_cart .enter_cart_goods .enter_cart_goods_item .enter_cart_goods_num .enter_cart_goods_num_{
+	font-style: normal; 
+}
+.ripper_side .enter_cart .enter_cart_price{
+	height: 24px;
+	margin-top: 14px;
+	margin-bottom: 10px;
+	color:#6ba652;
+	font-size: 24px;
+	line-height: 24px;
+	text-align: center;
+}
+.ripper_side .enter_cart .enter_cart_price .enter_cart_price_{
+	font-style: normal;
+}
+.ripper_side .enter_cart .enter_cart_click{
+	display: block;
+	 border-radius: 4px;
+	display: block;
+    margin: 3px auto 18px;
+    width: 172px;
+    height: 42px;
+    box-sizing: border-box;
+    background-color: #6ba652;
+    padding: 11px 28px;
+    color: white;
+    line-height: 20px;
+    font-size: 20px;
+	outline: none;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.ripper_hang .ripper_hang_detail{
+	width: 368px;
+	/*height: 393px;*/
+	background:#f4f4f4;
+	position: absolute;
+	top:62px;
+	right: 0;
+	display: none;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_title{
+	height: 26px;
+	padding-top: 24px;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_title .ripper_cart_right_title_name{
+	height: 26px;
+	padding:0 15px;
+	line-height: 26px;
+	float: left;
+    color: #9e9e9f;
+    
+    width: 34px;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_title .ripper_cart_right_title_content{
+	float: left;
+    font-size: 24px;
+    color: #b3ce3e;
+    line-height: 26px;
+}
+
+
+
+.ripper_hang .ripper_hang_detail .ripper_cart_right_title .ripper_cart_right_title_content .ripper_cart_left_thumbnail_2{
+	display: none;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_txt{
+	height: 130px;
+	padding-bottom: 25px;
+
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_txt .blank{
+	width: 34px;
+	padding:0 15px 1px 15px;
+	float: left;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_txt .ripper_cart_right_txt_right{
+	float: left;
+	color: #9e9e9f;
+    line-height: 26px;
+    font-size: 13px;
+    width: 380px;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_txt .ripper_cart_right_txt_right .ripper_cart_right_txt_right_2{
+	display: none;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_txt .ripper_cart_right_txt_right span{
+	color: black;
+	display: block;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_price{
+	height: 28px;
+	padding: 15px 0 15px 0;
+	overflow: hidden;
+
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_price .ripper_cart_right_title{
+	padding:8px 15px 0 15px;
+	float: left;
+    color: #9e9e9f;
+    
+    width: 34px;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_price .ripper_cart_right_num{
+	float: left;
+    font-size: 24px;
+    line-height: 28px;
+    color: #b3ce3e;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_price .ripper_cart_right_symbol{
+	float: left;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 16px;
+    padding-top: 2px;
+    color: #aaa;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_price .ripper_cart_right_txt{
+	float: left;
+    margin-left: 16px;
+    font-size: 20px;
+    line-height: 28px;
+    height: 28px;
+    padding-top: 2px;
+    color: #aaa;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_price .ripper_cart_right_txt .ripper_cart_right_txt_2{
+	display: none;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_classify .ripper_cart_right_classify_txt{
+	float: left;
+    color: #9e9e9f;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 34px;
+    letter-spacing: 1px;
+    font-size: 13px;
+   padding-top: 27px;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_classify{
+	/*height: 100px;*/
+	/*border:1px solid red;*/
+	overflow: hidden;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_classify .ripper_cart_right_classify_pic{
+	float: left;
+    /*width: 400px;*/
+    padding-bottom: 16px;
+    position: relative;
+
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_classify .ripper_cart_right_classify_pic li{
+	width:64px;
+	height: 64px;
+	 border: 2px solid white;
+	margin:0 8px 8px 0;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_classify .ripper_cart_right_classify_pic .ripper_cart_right_classify_pic_1{
+	 border: 2px solid #fdb523;
+}
+ 
+.ripper_hang .ripper_hang_detail .ripper_cart_right_classify .ripper_cart_right_classify_pic li img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_weight{
+	padding-bottom: 30px;
+	
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_weight .ripper_cart_right_weight_blank{
+	padding-top: 2px;
+	float: left;
+    color: #9e9e9f;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 34px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_weight .ripper_cart_right_weight_content{
+	color: #fdb523;
+    padding: 3px 9px;
+    border: 2px solid #fdb523;
+    display: inline-block;
+    font-size: 12px;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_number{
+	height: 24px;
+	
+	 
+	margin-bottom: 26px;
+	/*overflow: auto;*/
+}
+
+.ripper_hang .ripper_hang_detail .ripper_cart_right_number .ripper_cart_right_number_title{
+	padding:0 15px;
+	line-height: 32px;
+	float: left;
+    color: #9e9e9f;
+    
+    width: 34px;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_number .ripper_cart_right_number_frame{
+	float: left;
+	/*margin-bottom: 26px;*/
+	/*overflow: hidden;*/
+	/*pointer-events: none;*/
+	cursor: pointer;
+	margin-top: 3px;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_number .ripper_cart_right_number_frame .minus{
+	border-radius: 4px 0 0 4px;
+	display: block;
+	width: 20px;
+    height: 22px;
+    line-height:24px;
+    float: left;
+    background-color: #fdb523;
+    color: white;
+    text-align: center;
+    outline: none;
+    /*font-weight: 700;*/
+    font-size: 12px;
+    text-decoration: none;
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_number .ripper_cart_right_number_frame .plus{
+	border-radius: 0 4px 4px 0;
+	display: block;
+	width: 20px;
+    height: 22px;
+    line-height: 24px;
+    float: left;
+    background-color: #fdb523;
+    color: white;
+    text-align: center;
+    outline: none;
+    /*background-color: none;*/
+    /*font-weight: 700;*/
+    font-size: 12px;
+    text-decoration: none;
+    /*pointer-events: none;*/
+
+
+}
+.ripper_hang .ripper_hang_detail .ripper_cart_right_number .ripper_cart_right_number_frame .input_box{
+	box-sizing: border-box;
+    border: 1px solid #fdb523;
+    width: 36px;
+    height: 22px;
+    color: #787878;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    outline:none;
+    text-decoration: none;
+}
+.ripper_hang .ripper_hang_detail .ripper_hang_detail_btn{
+	width: 266px;
+	height: 38px;
+	padding:18px 48px 20px 54px;
+	display: flex;
+	background: #ededed;
+	justify-content: space-between;
+}
+.ripper_hang .ripper_hang_detail .ripper_hang_detail_btn a{
+	width: 112px;
+    height: 36px;
+    border: 1px solid #f89a29;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+     
+    border-radius: 4px;
+    border-radius: 4px;
+}
+.ripper_hang .ripper_hang_detail .ripper_hang_detail_btn a:nth-of-type(1){
+	background: #f89a29;
+	color: white;
+}
+.ripper_hang .ripper_hang_detail .ripper_hang_detail_btn a:nth-of-type(2){
+	background: #f4f4f4;
+	color:#f89a29;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
